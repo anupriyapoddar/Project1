@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hack Knack</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /*CSS Reset*/
+    body {
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    }
+    .left {
+      position: absolute;
+      left: 15px;
+      top: 10px;
+      display: inline-block;
+    }
+    .left img {
+      width: 126px;
+    }
+    .left div {
+      text-align: center;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 15px;
+    }
+    .mid {
+      display: block;
+      width: 40%;
+      margin: 20px auto;
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      border: 2px solid rgb(5, 0, 0);
+    }
+    .search {
+      float: right;
+      color: black;
+      padding: 12px 75px;
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 1px 10px;
+      text-align: center;
+      font-size: 20px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: #7e7a7a;
+    }
+    .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      font-style: italic;
+      padding: 4px 14px;
+      border: 1px solid gray;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: gray;
+    }
+    .container {
+      margin: 250px 100px;
+      padding: 45px;
+      width: 25%;
+      border-radius: 2px;
+    }
+
+    .container {
+      font-size: 40px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img
+          src="https://www.pngkit.com/png/full/119-1192858_computer-technology-icon-information-technology-logo-black.png"
+          alt=""
+        />
+        <div>Hack Knack</div>
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Sponsers</a></li>
+          <li><a href="#">Judges</a></li>
+          <li><a href="#">Winners</a></li>
+          <li><a href="#">Prizes</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Meetups</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <input type="text" name="Search" id="Search" placeholder="Search" />
+        <button class="btn">Contact Us</button>
+      </div>
+    </header>
+    <div class="container">COMING SOON ...</div>
+  </body>
+</html>
